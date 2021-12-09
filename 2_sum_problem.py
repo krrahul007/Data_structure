@@ -19,7 +19,7 @@ def SumDigit(arr,n,target):
             high = high - 1
         else:
             low = low + 1
-    print('the pair is {} and {}'.format(arr[low],arr[high]))
+    print('the pair is {} and {}'.format(arr[p1],arr[p2]))
 
 arr = [10,22,28,29,30,40]
 target = 54
